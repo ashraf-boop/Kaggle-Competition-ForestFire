@@ -17,7 +17,7 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
 * **Dataset Profile:** Train Dataset [221 rows x 37]
 * **Key Observations:** 
     * High correlation detected between numerical feature clusters.
-    * July, August and September have increasing number of forest fires recorded in the given data.
+    * June to September have increasing number of forest fires recorded in the given data.
     * Higher amount of forest fires have been observed from hour 16:00 - 24:00 and at 1:00 AM from the recorded data.
 
 ![Forest Fires Observed](images/ForestFireRecordedTime.png)
