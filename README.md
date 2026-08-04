@@ -25,7 +25,7 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
 * **Evaluation Metric:** 
     * LogLoss,ROC-AUC,RMSE,Brier's Loss,
     * Hybrid Score : a combination of C-index and Brier's Score is taken
-        *** (0.3 x C-index + 0.7 x (1 - Weighted Brier Score)) ***
+        `(0.3 x C-index + 0.7 x (1 - Weighted Brier Score))`
 
 # Key Technical Highlights
 
