@@ -18,4 +18,4 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
     * August & September have a sudden peak in the amount of forest fires recorded in the given data.
     * Higher amount of forest fires have been observed from hour 16 - 24 and 1am from the recorded data.
 
-!
+![Forest Fires Observed](images/ForestFireRecordedTime.png)
