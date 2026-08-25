@@ -4,6 +4,7 @@
 ![XGBoost](https://img.shields.io/badge/XGBoost-111111?style=flat)
 ![LightGBM](https://img.shields.io/badge/LightGBM-28A745?style=flat)
 ![Optuna](https://img.shields.io/badge/Optuna-blue?style=flat)
+
 A machine learning pipeline built for **[WiDS Global Datathon 2026](https://www.kaggle.com/competitions/WiDSWorldWide_GlobalDathon26)** on kaggle.
 This repository covers exploratory data analysis (EDA), data cleaning, feature engineering, cross-validation setup, and hyperparameter tuning.
 
