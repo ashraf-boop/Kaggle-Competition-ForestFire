@@ -20,8 +20,13 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
     * June to September have increasing number of forest fires recorded in the given data.
     * Higher amount of forest fires have been observed from hour 16:00 - 24:00 and at 1:00 AM from the recorded data.
 
+**relations between forestfires and Day/Month/Hour:**
 ![Forest Fires Observed](images/ForestFireRecordedTime.png)
-![Correlation heatmap of different time horizons and Features](images/CorelationalHeatmapOfTimestampsAndFeatures.png)
+
+**Correlation heatmaps:**
+![Full Correlation heatmap](images/fullcorrelationgraph.png)
+![Correlation heatmap of features](images/CorrelationMAP.png)
+![Correlation heatmap of different time horizons and Features](images/CorrelationalHeatmapOfTimestampsAndFeatures.png)
 
 * **Evaluation Metric:** 
     * Primary: LogLoss,ROC-AUC,RMSE,Brier's Loss,
@@ -38,6 +43,11 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
 ![Optimizing the 24H time horizon XGB model using Optuna](images/XGB_24H_Optuna.png)
 
 * **Feature Selection Iterations:** Constrained feature dimensions based on feature importance ranking using both `L1 lasso` and `permutation importance` then removing the features corelated to other features to maximize generalization on small, high-dimensional validation sets. 
+
+**permutation importance based selected features:**
+![Permutation importance](images/permutation_importance_Features.png)
+**logistic regression based selected features:**
+![logistic regression](images/logestic_regression_features.png)
 
 * **Model Calibration:** Both the XGboost and LightGBM models have been calibrated using both `Isotonic calibration` and `Sigmoid (Platt) calibration` during different instances to submit during the competition where Sigmoid performed better.
 
