@@ -50,10 +50,8 @@ This repository covers exploratory data analysis (EDA), data cleaning, feature e
 
 * **Feature Selection Iterations:** Constrained feature dimensions based on feature importance ranking using both `L1 lasso` and `permutation importance` then removing the features corelated to other features to maximize generalization on small, high-dimensional validation sets. 
 
-**permutation importance based selected features:**
+**permutation importance and logistic regression based selected features:**
 ![Permutation importance](images/permutation_importance_Features.png)
-**logistic regression based selected features:**
-![logistic regression](images/logestic_regression_features.png)
 
 * **Model Calibration:** Both the XGboost and LightGBM models have been calibrated using both `Isotonic calibration` and `Sigmoid (Platt) calibration` during different instances to submit during the competition where Sigmoid performed better.
 
